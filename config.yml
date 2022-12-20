@@ -1,0 +1,13 @@
+   
+# Main app config
+app:
+    title: DMR Network
+
+    
+pages:
+    home:
+        markdown_file: pages/home.md
+        
+    about:
+        markdown_file: pages/about.md
+
