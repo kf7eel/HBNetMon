@@ -1,6 +1,6 @@
-# Test
+## Welcome
 
-Testing experimental "app" (progressive web app with server driven UI).
+Welcome to your new HBNetMon installation. Be sure to change this content in **pages/home.md**.
 
-## Don't for get to change your username in the settings to your callsign.
+All pages use **Markdown** as syntax, HTML will not work.
 

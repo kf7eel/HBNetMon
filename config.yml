@@ -2,12 +2,28 @@
 # Main app config
 app:
     title: DMR Network
-
+    colors:
+        top_bar_color: lightblue300
+        icon_color: white
+        home_color: surfacevariant
+        page_color: surfacevariant
+    dmr_db:
+        json_file: users.json
+        json_url: https://radioid.net/static/users.json
+        # Time is in seconds, default of 1 week
+        stale_time: 604800
     
 pages:
     home:
         markdown_file: pages/home.md
         
     about:
+        menu_title: About
         markdown_file: pages/about.md
+    
+mmdvm_server:
+    host: server.or.ip_address
+    port: 4321
+            
 
+    
