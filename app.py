@@ -11,7 +11,7 @@ from datetime import datetime
 import ast
 import re
 
-from local_db import local_db
+from db import local_db
 
 from dmr_utils3.utils import get_alias, mk_id_dict, try_download
 
